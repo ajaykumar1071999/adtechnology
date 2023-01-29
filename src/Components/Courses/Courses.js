@@ -2,6 +2,11 @@ import React from 'react'
 import '../../Style/Courses/Courses.css';
 import {Link} from 'react-router-dom';
 import coursevideo from "../../Assets/Video/1.mp4";
+import hanumanji from "../../Assets/hanuman-ji.jpg";
+import paint from "../../Assets/paint-palette.png";
+import salon from "../../Assets/salon.png";
+import truck from "../../Assets/moving-truck.png";
+
 export default function Courses() {
   return (
     <>
@@ -83,11 +88,12 @@ export default function Courses() {
                             <div className='col-md-4'>
                             <div className="course-card">
                     <div className="course-card-image">
-                      <video
+                      {/* <video
                         src={coursevideo}
                         controls="controls"
                         className="img-fluid"
-                      ></video>
+                      ></video> */}
+                      <img src={paint} alt="course-image"/>
                     </div>
                     <div className="course-details">
                       <div className="d-flex justify-content-between">
@@ -125,11 +131,13 @@ export default function Courses() {
                             <div className='col-md-4'>
                             <div className="course-card">
                     <div className="course-card-image">
-                      <video
+                      {/* <video
                         src={coursevideo}
                         controls="controls"
                         className="img-fluid"
-                      ></video>
+                      ></video> */}
+
+                      <img src={hanumanji} alt="course-image"/>
                     </div>
                     <div className="course-details">
                       <div className="d-flex justify-content-between">
@@ -166,11 +174,14 @@ export default function Courses() {
                             <div className='col-md-4'>
                             <div className="course-card">
                     <div className="course-card-image">
-                      <video
+                      {/* <video
                         src={coursevideo}
                         controls="controls"
                         className="img-fluid"
-                      ></video>
+                      ></video> */}
+
+                      <img src={salon} alt="course-image"/>
+
                     </div>
                     <div className="course-details">
                       <div className="d-flex justify-content-between">
@@ -207,11 +218,13 @@ export default function Courses() {
                             <div className='col-md-4'>
                             <div className="course-card">
                     <div className="course-card-image">
-                      <video
+                      {/* <video
                         src={coursevideo}
                         controls="controls"
                         className="img-fluid"
-                      ></video>
+                      ></video> */}
+
+                      <img src={truck} alt="course-image"/>
                     </div>
                     <div className="course-details">
                       <div className="d-flex justify-content-between">
