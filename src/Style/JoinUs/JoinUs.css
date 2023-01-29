@@ -1,0 +1,33 @@
+.join-us{
+    margin-top: 80px;
+    background-color: #e1f3fb;  
+}
+.join-us-wrapper{
+    padding: 80px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.join-us-heading h1{
+    color: #005072;
+    font-size: 32px;
+    font-weight: 600;
+}
+.join-us-heading p{
+    color: #005072;
+    font-size: 20px;
+}
+.join-sharing-icon{
+    width: 100%;
+}
+.icon-image{
+    width: 20%;
+}
+.icon-image img{
+    width: 100%;
+}
+.icon-image-empty{
+    border-right: solid 1px lightgray;
+    height: 55px;
+}
