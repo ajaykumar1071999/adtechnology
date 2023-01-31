@@ -1,0 +1,119 @@
+.section-heading-1{
+    width: 100%;
+    height: 500px;
+    background-image: url('../../Assets/consultation-first.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.section-heading-1 h1{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ef6696;
+    font-size: 42px;
+    font-weight: 500;
+  text-shadow: 2px 2px #fff;
+}
+.search-cards{
+    border: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+.search-box{
+    width: 50%;   
+}
+.search-btn-1{
+   margin-left: 20px;}
+.search-btn-1 button{
+    background-color: #ef6696;
+}
+.search-btn-1 button:hover{
+background-color: #ef6696;
+}
+.consult-wrap{
+    margin: 10px 0px;
+}
+.All-Cards{
+    box-sizing: border-box;
+    
+}    
+
+
+.consult-card{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px rgb(13 101 140 / 18%);   
+    background-color: #fff;
+    
+}
+.consult-img{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.consult-img img{
+    width: 100%;
+    height: 100%;
+}
+.consult-body{
+    padding: 10px;
+}
+.consultant-name-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.consultant-name a{
+    text-decoration: none;
+    color: #005072;
+    letter-spacing: -0.02em;
+
+
+}
+.consultant-rating{
+    color: #676565;
+    font-size: 12px;
+}
+.consultant-exp{
+    display: flex;
+    justify-content: space-between;
+}
+.consultant-exp h6{
+    color: #676565;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+}
+.consultant-fee{
+    display: flex;
+    justify-content: space-between;
+}
+.consultant-fee p{
+    color: #005072;
+    font-weight: 600;
+}
+.consult-footer{
+    text-align: center;
+    background-color: #ef6696;
+    padding: 1px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 0px 10px 35px 10px;
+    position: relative;
+    top: 20px;
+    box-sizing: border-box;
+
+}
+.consult-footer a{
+    text-decoration: none;
+    color: #fff;
+
+}
